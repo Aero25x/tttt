@@ -8,7 +8,7 @@ jobs:
       matrix:
         platform: [windows-latest]
     env:
-      working-directory: ./tauri-app
+      working-directory: tauri-app
 
     runs-on: ${{ matrix.platform }}
     steps:
